@@ -1,0 +1,239 @@
+.encabezado {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-rows: min-content;
+  align-items: center; 
+}
+
+.titulo {
+  font-family: "Playpen Sans", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: italic;
+  color: rgb(110, 47, 8);
+  grid-column: 1 / span 2;
+  text-align: end;
+  padding-right: 30px;
+  
+}
+
+.texto-buscar {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  height: 28px;
+  padding: 0px;
+}
+
+.boton-buscar {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  height: 30px;
+  width: 30px;
+  padding: 0px;
+  background-image: "https://www.dropbox.com/scl/fi/p0rys4dl3iqac66zbnb3l/icons8-b-squeda-30.png?rlkey=ri739speno82wdyqmf4pw6mn6&st=uzw2j94v&dl=1";
+}
+
+.navegacion {
+  grid-column-start: 5;
+  grid-column-end: 6;
+}
+
+.portada {width: 50%;
+height: 250px;}
+
+.menu-bar {
+    font-family: arial, sans-serif;  
+    font-size: 30px;
+    background-color: rgb(182, 154, 118); 
+    padding: 0; 
+    display: flex;
+    justify-content: center;
+    heigth: 100%
+    width: 100% 
+}
+
+.menu {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; 
+}
+
+.menu li {
+    margin: 0 20px; 
+}
+
+.menu li a {
+    text-decoration: none; 
+    color: white; 
+    font-size: 18px; 
+    font-weight: bold; 
+    padding: 10px 15px; 
+    display: block; 
+    text-align: center; 
+}
+
+.menu li a:hover {
+    background-color: rgba(255, 255, 255, 0.2); 
+  border-radius: 5px; }
+
+
+.portada-container {
+    background-image: url('https://www.dropbox.com/scl/fi/ypow2q4sor1wp0jcal25n/portada.jpg?rlkey=pov9mvymzd52tzkjwje8cxvtw&dl=1'); /* Imagen de fondo */
+    background-size: 100% 100%; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    position: relative; 
+  height: 250px;
+}
+
+.texto-container {
+    font-family: "times new roman", sans-serif;
+    text-align: center; 
+    color: white; 
+  
+}
+
+.lema1 {
+    font-size: 24px; 
+    margin-bottom: 10px; 
+    font-weight: bold;  
+}
+
+.lema2 {
+    font-size: 18px; 
+}
+.recomendaciones {
+  color: rgb(146, 35, 37);
+} 
+
+.seccion-libros {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: repeat(2, 1fr);
+row-gap: 50px;
+}
+
+.libro1, .libro2, .libro3, .libro4, .libro5, .libro6, .libro7, .libro8 {
+  justify-items: center;
+  
+}
+
+.titulo-libro {
+  text-align: center;
+  padding: 0;
+  font-size: 25px;
+}
+
+.autor-libro {
+  text-align: center;
+  padding: 0;
+ font-size: 15px;
+}
+
+.ver-mas {
+  font-size: 20px;
+  padding: 0;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  place-content: center;
+  width: 50%;
+  height: 7%;
+ 
+}
+
+.imagen-libro {
+  place-content: center;
+  padding-left: 20px;
+  max-width: 100%;
+  
+}
+
+.conocenos {
+  color: rgb(173, 112, 116)
+}
+
+.conocenos-contenedor {
+display: grid;
+grid-template-columns: 50%, 50%;
+grid-template-rows: 1;
+gap-top: 50px;
+
+}
+
+.texto. {
+grid-column-start: 1;
+grid-column-end: 2;
+length: 50%;
+max-width: 50%
+}
+
+.libreria {
+grid-column-start: 2;
+grid-column-end: 3;
+width: 100%;
+hight: auto;
+margin-top: 1vw;
+
+}
+
+.conocenos-parrafo {font-family: arial; sans-serif
+padding-right: 10px;
+}
+
+.esperamos { color: rgb(173, 112, 116);
+
+}
+
+.contenedor-datos {
+display: grid;
+grid-template-columns: 3fr;
+grid-template-rows: 1;
+gap: 5px;
+background-color: rgb(182, 154, 118)
+
+}
+
+.eltunel {
+grid-column-start: 1;
+grid-column-end: 2;
+width-max: 33.3%;
+font-family: arial; sans-serif;
+color: white
+}
+
+.informacion {
+grid-columns-start: 2;
+grid-columns-end: 3;
+font-family: arial, sans-serif; 
+color: white
+}
+
+.informacion a {
+color: white;
+text-decoration: none;
+}
+
+.subscribete {
+grid-column-start: 3;
+grid-column-start: 4;
+font-family: arial;
+  color: white;
+}
+
+.copyright {
+display: grid;
+grid-template-columns: 1;  
+grid-template-rows: 1;
+background-color: rgb(182, 154, 118);
+  font-family: arial, sans-serif;
+color: white;
+font-size: 10px;
+
+}
